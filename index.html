@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="all">
+        <aside>
+            <h2>Welcome</h2>
+            <img src="" alt="logo">
+            <p id="wynik"></p>
+            <p id="wynik2"></p>
+            <p id="wynik3"></p>
+            <p id="wynik4"></p>
+        </aside>
+        <div>
+            <header>
+                <div class="title">
+                    <h1>Ankieta</h1>
+                </div>
+                <div><hr></div>
+                
+            </header>
+            
+            <main>      
+                <div class="shadow-conteiner">
+                    <form action="" method="post" name="contact-form">
+                        <div class="input-group">
+                            <input name="name" id="name" required="" type="text" name="text" autocomplete="off" class="input">
+                            <label id="namelable" class="user-label">Imię</label>
+                        </div>
+                        <div class="input-group">
+                            <input name="lastname" id="lastname" required="" type="text" name="text" autocomplete="off" class="input">
+                            <label id="lastnamelable" class="user-label">Nazwisko</label>
+                        </div>
+                        <div class="input-group">
+                            <input name="age" id="age" required="" type="number" name="text" autocomplete="off" class="input">
+                            <label id="agelable" class="user-label">Wiek</label>
+                        </div>
+                        <div class="input-group">
+                            <input name="email" id="email" required="" type="text" name="text" autocomplete="off" class="input">
+                            <label id="emaillable" class="user-label">Adres e-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <input name="location" id="location" required="" type="text" name="text" autocomplete="off" class="input">
+                            <label id="locationlable" class="user-label">Adres zamieszkania</label>
+                        </div>
+                        <div class="input-group">
+                            <input name="password" id="haslo1" required="" type="password" name="text" autocomplete="off" class="input">
+                            <label id="haslo1lable" class="user-label">Hasło</label>
+                        </div>
+                        <div class="input-group">
+                            <input name="mailcode" id="poczt" required="" type="text" name="text" autocomplete="off" class="input">
+                            <label id="pocztlable" class="user-label">Kod pocztowy</label>
+                        </div>
+                        <div class="input-group">
+                            <input name="password" id="haslo2" required="" type="password" name="text" autocomplete="off" class="input">
+                            <label id="haslo2lable" class="user-label">Potwierdź hasło</label>
+                        </div>
+                    </form>
+                    
+                </div>
+                <div class="buttons">
+                    
+                    <button id="submit" class="button-effect">Wyślij</button>
+                    <button class="button-effect">Sprawdź</button>
+                </div>  
+            </main>
+        </div>    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
