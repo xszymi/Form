@@ -8,12 +8,12 @@ const buttons = document.querySelectorAll('button');
         let email = document.getElementById('email').value;
         let patern1 = /\S+[@]\S+/;
         if(patern1.test(email)){
-            wynik.innerHTML="";
+            // wynik.innerHTML="";
             document.getElementById("email").style.border = "1.5px solid #1a73e8";
             document.getElementById("emaillable").style.color = "#1a73e8";
         }
         else{
-            wynik.innerHTML="Niepoprwany e-mail. Spróbuj ponownie";
+            // wynik.innerHTML="Niepoprwany e-mail. Spróbuj ponownie";
             document.getElementById("email").style.border = "1.5px solid red";
             document.getElementById("emaillable").style.color = "red";
         }
@@ -21,12 +21,12 @@ const buttons = document.querySelectorAll('button');
         let poczt = document.getElementById('poczt').value;
         let patern2 = /\d{2}[-]\d{3}/;
         if(patern2.test(poczt)){
-            wynik2.innerHTML="";
+            // wynik2.innerHTML="";
             document.getElementById("poczt").style.border = "1.5px solid #1a73e8";
             document.getElementById("pocztlable").style.color = "#1a73e8";
         }
         else{
-            wynik2.innerHTML="Niepoprwany Kod pocztowy. Spróbuj ponownie";
+            // wynik2.innerHTML="Niepoprwany Kod pocztowy. Spróbuj ponownie";
             document.getElementById("poczt").style.border = "1.5px solid red";
             document.getElementById("pocztlable").style.color = "red";
         }
@@ -47,13 +47,13 @@ const buttons = document.querySelectorAll('button');
         }
         else{
             if (haslo1 == haslo2){
-                wynik3.innerHTML="";
+                // wynik3.innerHTML="";
                 document.getElementById("haslo2").style.border = "1.5px solid #1a73e8";
                 document.getElementById("haslo2lable").style.color = "#1a73e8";
                 
             }
             else{
-                wynik3.innerHTML="Hasła się nie zgadzają.";
+                // wynik3.innerHTML="Hasła się nie zgadzają.";
                 document.getElementById("haslo2").style.border = "1.5px solid red";
                 document.getElementById("haslo2lable").style.color = "red";
             }
@@ -61,52 +61,52 @@ const buttons = document.querySelectorAll('button');
         /*------Rest------*/
         let name = document.getElementById("name").value;
         if (name != ""){
-            wynik4.innerHTML="";
+            // wynik4.innerHTML="";
             document.getElementById("name").style.border = "1.5px solid #1a73e8";
             document.getElementById("namelable").style.color = "#1a73e8";
             
         }
         else{
-            wynik4.innerHTML="Uzupełnij wszystkie pola.";
+            // wynik4.innerHTML="Uzupełnij wszystkie pola.";
             document.getElementById("name").style.border = "1.5px solid red";
             document.getElementById("namelable").style.color = "red";
         }
 
         let lastname = document.getElementById("lastname").value;
         if (lastname != ""){
-            wynik4.innerHTML="";
+            // wynik4.innerHTML="";
             document.getElementById("lastname").style.border = "1.5px solid #1a73e8";
             document.getElementById("lastnamelable").style.color = "#1a73e8";
             
         }
         else{
-            wynik4.innerHTML="Uzupełnij wszystkie pola.";
+            // wynik4.innerHTML="Uzupełnij wszystkie pola.";
             document.getElementById("lastname").style.border = "1.5px solid red";
             document.getElementById("lastnamelable").style.color = "red";
         }
 
         let age = document.getElementById("age").value;
         if (age != ""){
-            wynik4.innerHTML="";
+            // wynik4.innerHTML="";
             document.getElementById("age").style.border = "1.5px solid #1a73e8";
             document.getElementById("agelable").style.color = "#1a73e8";
             
         }
         else{
-            wynik4.innerHTML="Uzupełnij wszystkie pola.";
+            // wynik4.innerHTML="Uzupełnij wszystkie pola.";
             document.getElementById("age").style.border = "1.5px solid red";
             document.getElementById("agelable").style.color = "red";
         }
 
         let location = document.getElementById("location").value;
         if (location != ""){
-            wynik4.innerHTML="";
+            // wynik4.innerHTML="";
             document.getElementById("location").style.border = "1.5px solid #1a73e8";
             document.getElementById("locationlable").style.color = "#1a73e8";
             
         }
         else{
-            wynik4.innerHTML="Uzupełnij wszystkie pola.";
+            // wynik4.innerHTML="Uzupełnij wszystkie pola.";
             document.getElementById("location").style.border = "1.5px solid red";
             document.getElementById("locationlable").style.color = "red";
         }
