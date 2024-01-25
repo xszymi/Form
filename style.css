@@ -177,3 +177,6 @@ form{
 .button-effect:active {
   top: 1px;
 }
+::-ms-reveal{
+  filter: invert(100%);
+}
